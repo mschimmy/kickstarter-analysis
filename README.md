@@ -25,7 +25,7 @@ I encountered some challenges when populating the table used to compare campaign
   - Louise has the lowest chance of having a successful campaign if she launches in December. This could possibly be due to the number of holidays that occur during the end of the year, backers may be less likely to donate to Kickstarter campaigns as they are saving their money to spend on holiday activities.
 
 - What can you conclude about the Outcomes based on Goals?
-  - With their current budget of $12,000, Louise has a 54% chance of having a successful campaign. If they were to decrease their fundraising goal to less than $5,000 their chances of having a successful campaign would increase to 73-76%, approximately 20%.
+  - With their current budget of $12,000, Louise has a 54% chance of having a successful campaign. If they were to decrease their fundraising goal to less than $5,000 their chances of having a successful campaign would increase by approximately 20% to 73-76%.
 
 - What are some limitations of this dataset?
   - A limitation of this dataset is that it does not give context to the methods used to crowdfund the campaign. Different campaigns will have different methods of fundraising and this information could be relevant to the success or failure of the campaign. For example, campaigns that use advertising to raise money for their campaign may have more success than campaigns that do not, this could be a useful insight for Louise’s campaign.
