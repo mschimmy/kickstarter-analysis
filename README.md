@@ -8,12 +8,12 @@ I will be using Kickstarter campaign data to determine how different theater cam
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date
 I first created a pivot table from the Kickstarter data that would organize theater campaign outcomes based on the launch date. The table is filtered by parent category (theater) and years, groups campaign launch dates by month, and counts the campaign outcome (successful, failed, or canceled) for each month. I then created a line chart from the pivot table to visualize the relationship between outcomes and launch month.
-![Theater_Outcomes_vs_Launch](https://github.com/[mschimmy]/kickstarter-analysis]/blob/[Resources]/Theater_Outcomes_vs_Launch.png?raw=true)
+![Theater_Outcomes_vs_Launch](https://github.com/mschimmy/kickstarter-analysis/blob/Resources/Theater_Outcomes_vs_Launch.png?raw=true)
 In our dataset, there are 1,369 theater campaigns and 839 of them were successful, giving a 61% success rate. When we compare the outcomes of theater campaigns based on launch month, we can see that more campaigns were launched between May and July than in other months, with most campaigns being launched in May. May also has the highest number of successful campaigns with a success rate of 67%. December has the least number of successful campaigns with a success rate of 49%.
 
 ### Analysis of Outcomes Based on Goals
 I created a table using the COUNTIFS() function to calculate the number of successful, failed, and canceled theater campaigns by funding goal range. Using this information, I then calculated the percentage of successful, failed, and canceled projects for each funding goal range, and created a line chart to visualize the relationship between the goal-amount ranges and the percentage of successful, failed, or canceled projects. 
-![Outcomes_vs_Goals](https://github.com/[mschimmy]/kickstarter-analysis]/blob/[Resources]/Outcomes_vs_Goals.png?raw=true)
+![Outcomes_vs_Goals](https://github.com/mschimmy/kickstarter-analysis/blob/Resources/Outcomes_vs_Goals.png?raw=true)
 Generally, failed Kickstarter campaigns have higher fundraising goals than successful Kickstarter campaigns, with the likelihood of having a successful campaign tapering off at the $15,000 to $19,999 fundraising goal (50% chance of success). The exceptions to this trend are campaigns with a fundraising goal of $35,000 to $39,999. But it is important to note that the number of campaigns in this range is much lower than the number of campaigns with a fundraising goal of less than $20,000 (9:985). Theater campaigns with a fundraising goal of less than $1,000 or $1,000 to $4,999 were the most successful with a success rate of 76% and 73% respectively. The least successful campaigns were those with a fundraising goal of $45,000 to $49,999.
 
 ### Challenges and Difficulties Encountered
